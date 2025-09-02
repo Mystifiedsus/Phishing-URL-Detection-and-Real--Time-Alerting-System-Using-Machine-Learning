@@ -1,6 +1,15 @@
 IoT Device Security Simulation
 This project is a Python-based simulation demonstrating a simple authentication protocol for IoT devices and its vulnerability to common cyberattacks. It provides a foundational understanding of how replay, data injection, and denial-of-service (DoS) attacks can affect a network of IoT devices and how an authentication protocol can mitigate some of these threats.
 
+Table of Contents
+Features
+
+How to Run
+
+Code Structure
+
+License
+
 Features
 Simulated IoT Devices: Creates and manages multiple IoT devices that can send authenticated messages.
 
