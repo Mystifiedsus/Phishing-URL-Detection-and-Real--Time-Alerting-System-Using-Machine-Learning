@@ -31,16 +31,25 @@ How to Run
 Prerequisites
 Make sure you have Python installed. The project also uses the matplotlib library for plotting. You can install it using pip.
 
-pip install matplotlib
+Bash
 
+pip install matplotlib
 Execution
 Simply run the main script from your terminal.
 
-python main.py
+Bash
 
+python main.py
 The script will print the results of the different simulations to the console and save two image files, latency_energy_plot.png and auth_success_rate.png, in the same directory.
 
 Code Structure
+.
+├── auth_protocol.py
+├── attacks.py
+├── device.py
+├── main.py
+├── metrics.py
+└── utils.py
 main.py: The main script that orchestrates the simulation. It initializes the devices and server, runs the attack simulations, calculates the metrics, and generates the plots.
 
 auth_protocol.py: Defines the AuthProtocol class, which handles the authentication logic using a shared key.
